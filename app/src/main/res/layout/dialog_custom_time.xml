@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_shape_custom_time_01">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="自定义"
+        android:textSize="18sp"
+        android:textColor="#333333"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DDDDDD"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="36dp"
+            android:background="@drawable/bg_shape_custom_time_02">
+
+            <TextView
+                android:id="@+id/tv_dialog_custom_time_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:text="分钟"
+                android:textSize="16sp"
+                android:textColor="#333333"/>
+
+            <EditText
+                android:id="@+id/et_dialog_custom_time_input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|end"
+                android:maxLength="4"
+                android:inputType="number"
+                android:layout_marginEnd="6dp"
+                android:layout_toStartOf="@+id/tv_dialog_custom_time_unit"
+                android:background="@null"
+                android:hint="0"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp">
+
+        <Button
+            android:id="@+id/btn_dialog_custom_time_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_shape_custom_time_03"
+            android:text="取消"
+            android:textSize="16sp"
+            android:textColor="#0011B6"/>
+        
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_dialog_custom_time_sure"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_shape_custom_time_03"
+            android:text="确认"
+            android:textSize="16sp"
+            android:textColor="#0011B6"/>
+
+    </LinearLayout>
+</LinearLayout>

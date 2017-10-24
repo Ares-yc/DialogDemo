@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ares.dialogdemo.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_activity_main_custom_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="自定义时间"
+        android:textSize="18sp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_activity_main_select_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="选择重复日期"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_activity_main_select_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="选择重复类型"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_activity_main_delay_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="延时设置"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_activity_main_timing_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="定时设置"
+        android:textSize="18sp"/>
+
+</LinearLayout>
